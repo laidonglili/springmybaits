@@ -48,7 +48,7 @@ public class Test {
 //        logger.log(Level.INFO, "hello world!");
 //        logger.log(Level.OFF,"hello world!");
 //        logger.log(Level.SEVERE,"hello world!");
-         // Thread.dumpStack();
+         Thread.dumpStack();
          Runtime time=Runtime.getRuntime();
         System.out.println(time.totalMemory()/1024/1024);
     }
